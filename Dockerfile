@@ -39,6 +39,6 @@ RUN cp modules/xdebug.so /usr/lib/php/20151012
 RUN echo 'zend_extension = /usr/lib/php/20151012/xdebug.so' >> /etc/php/7.0/apache2/php.ini
 
 
-EXPOSE 80 9000
+EXPOSE 80 9000 8443
 
 CMD apachectl -DFOREGROUND
