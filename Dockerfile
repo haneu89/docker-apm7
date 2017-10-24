@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
   libapache2-mod-php \
   php-mcrypt \
   php-mysql \
-  mbstring \
+  php-mbstring \
   php-gd \
   curl \
   --no-install-recommends
