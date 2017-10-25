@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
   php-mbstring \
   php-gd \
   php-dev \
+  php-curl \
   curl \
   wget \
   build-essential \
