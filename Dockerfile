@@ -6,6 +6,7 @@ MAINTAINER jinhyung <mail@jinhyung.kim>
 RUN apt-get update && apt-get install -y \
   apache2 \
   php \
+  unzip \
   libapache2-mod-php \
   php-mcrypt \
   php-mysql \
