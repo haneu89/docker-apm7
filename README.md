@@ -11,7 +11,7 @@ docker build -t haneu89/apm7 .
 in your php project directory
 
 ```bash
-docker run -d -p 80:80 --name apm7 -v $(pwd):/var/www/html/ apm7
+docker run --rm -it -p 80:80 --name apm7 -v $(pwd):/var/www/html/ apm7
 ```
 
 <a name="korean"></a>[[English]](#english)
@@ -27,5 +27,5 @@ docker build -t haneu89/apm7 .
 php프로젝트 디렉토리 안에서 실행
 
 ```bash
-docker run -d -p 80:80 --name apm7 -v $(pwd):/var/www/html/ apm7
+docker run --rm -it -p 80:80 --name apm7 -v $(pwd):/var/www/html/ apm7
 ```
